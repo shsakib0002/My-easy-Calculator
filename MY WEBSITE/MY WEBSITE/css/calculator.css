@@ -1,0 +1,35 @@
+/* calculator.css */
+
+/* Container */
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Input Fields */
+.container input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+.container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Result Container */
+.result-container {
+  margin-top: 20px;
+}
+
+/* Result Heading */
+.result-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
